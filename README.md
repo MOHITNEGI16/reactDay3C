@@ -1,9 +1,8 @@
 # Food React App
-
 This is a simple React application that demonstrates the usage of components and props to create a user interface.
 
-## Components
 
+## Components
 The application consists of the following components:-
 
 ### Navbar Component
@@ -18,6 +17,9 @@ We see there are many buttons on project so we construct a Button Component.
 
 This component will display the footer section of website and will be same for other pages of the website .
 
+
+
+
 ## Preview
 
 ![Website Preview](./preview1.png)
@@ -26,9 +28,14 @@ This component will display the footer section of website and will be same for o
 
 ![Website Preview](./preview3.png)
 
+
+
+
 ## Live Demo
 
 You can access the live demo of this application [here](https://mohitnegi-react-day3c.netlify.app/).
+
+
 
 ## Conclusion
 
