@@ -1,0 +1,30 @@
+#resturantContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap:10vh 0;
+  margin: 10vh 0;
+}
+#filters{
+  margin-top: 3vh ;
+  display: flex;
+  justify-content: space-between;
+}
+#filters input{
+  font-size: 1.2rem;
+  width: 19vw;
+  height: 7vh;
+  margin-left: 3vw;
+}
+
+ #ratingDiv{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+ }
+ #ratingDiv input{
+  font-size: 1.2rem;
+
+  margin-right: 3vw;
+  width: 7vw;
+ }
