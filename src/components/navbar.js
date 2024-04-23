@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Button from "./Button";
 function Navbar() {
   return (
@@ -16,22 +17,23 @@ function Navbar() {
 
         <ul>
           <li>
-            <a href="https://geekfood.vercel.app/">Home</a>
+            <Link to = "/">Home</Link>
           </li>
           <li>
-            <a href="https://geekfood.vercel.app/">Quote</a>
+            <Link to = "/quotes">Quote</Link>
           </li>
           <li>
-            <a href="https://geekfood.vercel.app/">Resturants</a>
+            <Link to = "/resturants">Resturants</Link>
           </li>
           <li>
-            <a href="https://geekfood.vercel.app/">Food</a>
+            <Link to = "/food">Food</Link>
           </li>
           <li>
-            <a href="https://geekfood.vercel.app/">Contact</a>
+            <Link to = "/contact">Contact</Link>
           </li>
         </ul>
 
+ 
         <Button
           bgColor={"rgb(37,99,235)"}
           color={"#FFFFFF"}

@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer";
+import Button from "../components/Button";
 import ResturantCard from "../components/ResturantCard";
 import React, { useEffect, useState } from "react";
 
